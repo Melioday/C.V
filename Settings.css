@@ -1,0 +1,172 @@
+body {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: gray
+}
+
+#Container {
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 750px;
+    margin: 0 auto;
+}
+
+#baneer {
+    text-align: center;
+}
+
+ul {
+    color: rgb(10, 7, 36);;
+    list-style-type: none;
+    align-self: auto;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+    color: rgb(10, 7, 36);}
+
+h1 {
+    color: rgb(2, 2, 2);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+section#profil p{
+    color: rgb(255, 179, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+section#profil h2{
+    color: rgb(10, 7, 36);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+nav a{
+    font-size: 30px;
+}
+
+a:visited{
+    color: rgb(10, 7, 36);;
+}
+
+nav a:hover {
+    letter-spacing: 0px;
+    font-size: 26px;
+}
+
+section#compt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section#exp{
+    color:rgb(255, 179, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: large;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(10, 7, 36);
+}
+
+#tableau{
+    width: 750px;
+    text-align: center;
+}
+
+th, td{
+    border: solid 1px rgb(182, 182, 199);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    text-decoration: underline rgb(10, 7, 36);
+}
+#competences{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 7, 36);;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#gallery{
+    text-align: center;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#gallery :hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.img1{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img2{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img3{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img4{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img5{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img6{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img7{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+.img8{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color:  rgb(10, 7, 36);
+}
+#scrollUp{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
